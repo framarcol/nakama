@@ -36,15 +36,15 @@ services:
       - ./data:/nakama/data
     expose:
       - "7349"
-      - "443"
+      - "7350"
       - "7351"
       - "9100"
     ports:
       - "7349:7349"
-      - "443:443"
+      - "7350:7350"
       - "7351:7351"
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:443/"]
+      test: ["CMD", "curl", "-f", "http://localhost:7350/"]
       interval: 10s
       timeout: 5s
       retries: 5
