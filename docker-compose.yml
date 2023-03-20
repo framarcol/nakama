@@ -43,6 +43,7 @@ services:
       - "7349:7349"
       - "7350:7350"
       - "7351:7351"
+      - "9100:9100"
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:7350/"]
       interval: 10s
