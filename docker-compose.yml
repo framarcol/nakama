@@ -42,7 +42,7 @@ services:
     ports:
       - "7349:7349"
       - "7350:7350"
-      - "7351:80"
+      - "7351:7350"
       - "9100:9100"
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:7350/"]
