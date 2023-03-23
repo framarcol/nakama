@@ -1,0 +1,22 @@
+name: nakama1
+socket:
+  # Replace this with a random string.
+  server_key: "orbofimyKey"
+
+session:
+  # 6h token expiry
+  token_expiry_sec: 21600
+  # Replace both of these with a random strings.
+  encryption_key: "orbofiMyKey"
+  refresh_encryption_key: "OrbofiMykey"
+
+runtime:
+  # Replace this with a random string.
+  http_key: "myorbofiKey"
+
+console:
+    port: 7351
+    username: "orbofi"
+    password: "orbofi1234"
+    # Replace this with a random string.
+    signing_key: "myorbofiKey"
