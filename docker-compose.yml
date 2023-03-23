@@ -37,7 +37,7 @@ services:
   nginx:
     image: jonasal/nginx-certbot:latest
     environment:
-      CERTBOT_EMAIL: "me@example.com"
+      CERTBOT_EMAIL: "fran@orbofi.com"
     ports:
       - "80:80"
       - "443:443"
